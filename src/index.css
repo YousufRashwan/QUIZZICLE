@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #F5F7FB;
+  color: #293264;
+  padding: 20px;
+  font-family: 'Karla', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Start h1 {
+  margin: 0;
+}
+
+.Start label {
+  font-size: 18px;
+}
+
+.Customize{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.Customize .amount-input, .Customize  select {
+  border: 1px solid rgba(77, 91, 158, 1);
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 5px;
+  text-align: center;
+  font-size: inherit;
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+}
+
+.Customize  select {
+  cursor: pointer;
+}
+
+button {
+  background-color: #4D5B9E;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  text-align: center;
+  padding: 15px 45px;
+  color: #F5F7FB;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+  border: none
+}
+
+legend {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+fieldset .asnwer-container {
+  border: 1px solid rgba(77, 91, 158, 1);
+  font-size: 16px;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  padding: 5px 15px;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  display: block;
+}
+
+fieldset .asnwer-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+hr {
+  margin-bottom: 20px;
+}
+
+.bottom-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.bottom-bar button {
+  margin-left: 20px;
+}
+
+.bottom-bar .score {
+  font-size: 18px;
+  text-align: center;
+}
